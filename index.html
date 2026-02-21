@@ -7,41 +7,54 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- parte del ticket donde se resumirán los productos seleccionados -->
     <div class="parent">
         <div class="div1"> 
             <h1 id="titulo">Ticket de la compra</h1>
+            <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Coste</th>
+                </tr>
+            </thead>
+            <tbody id="body">
+                </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2">TOTAL</th>
+                    <td id="pie"></td>
+                </tr>
+            </tfoot>
+        </table>
 
         </div>
 
 
-        <div class="div2"> </div> <!-- Este div es contenedor de los div 3, 4, 5 y 6 (productos) -->
-
-        
-        <div class="div3"> 
+        <div class="div2"> </div> <div class="div3"> 
             <h2 id="titulo">Leche</h2>
-            <img src="img/leche.jpg" alt="Leche" width="400px">
+            <img src="img/leche.jpg" alt="Leche" width="300px">
             <p></p>
             <button id="botonLeche">Agregar</button>
             </div>
 
         <div class="div4">
             <h2 id="titulo">Pan</h2>
-            <img id="titulo" src="img/pan.jpg" alt="Pan" width="400px">
+            <img id="titulo" src="img/pan.jpg" alt="Pan" width="300px">
             <p></p>
             <button id="botonPan">Agregar</button>
             </div>
 
         <div class="div5">
             <h2 id="titulo">Huevos</h2>
-            <img id="titulo" src="img/huevos.jpg" alt="Huevos" width="400px">
+            <img id="titulo" src="img/huevos.jpg" alt="Huevos" width="300px">
             <p></p>
             <button id="botonHuevos">Agregar</button>
             </div>
 
         <div class="div6"> 
             <h2 id="titulo">Manzana</h2>
-            <img src="img/manzana.jpg" alt="Manzana" width="400px">
+            <img src="img/manzana.jpg" alt="Manzana" width="300px">
             <p></p>
             <button id="botonManzana">Agregar</button>
         </div>
